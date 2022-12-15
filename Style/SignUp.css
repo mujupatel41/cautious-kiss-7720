@@ -1,0 +1,82 @@
+body{
+    background-color: #ffffff;
+}
+#nav{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+}
+#nav>div>h1{
+    font: italic 1.2em "Fira Sans", serif;
+    font-size: 30px;
+}
+#login{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 17px;
+}
+#main{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width: 500px;
+    margin: auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+#child{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    width: 80%;
+    margin: auto;
+}
+#child>h3{
+    color: #72757b;
+}
+#email{
+    height: 37px;
+    font-size: 17px;
+    border-radius: 5px;
+    color: #c9c6c3;
+}
+#pass{
+    height: 37px;
+    font-size: 17px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    color: #c9c6c3;
+}
+#btn{
+    height: 50px;
+    font-size: 17px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    background-color: #c3c3c3;
+    color: #ffffff;
+    font-size: 20px;
+    border: none;
+    outline: none;
+}
+#btn:hover{
+    background-color: #a5afc2;
+}
+#duo{
+    text-align: left;
+}
+#duo{
+    color: #c7c7c7;
+}
+#child>#btn+p{
+    color: #a5afc2;
+    margin-bottom: 30px;
+}
+#child>:nth-child(1){
+    margin-top: 50px;
+}
+#footer{
+    width: 35%;
+    margin: auto;
+    margin-top: 10px;
+}
