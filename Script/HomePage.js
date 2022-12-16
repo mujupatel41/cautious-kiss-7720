@@ -1,3 +1,4 @@
+
 document.querySelector("#nav>div>h1").addEventListener("click",()=>{
     window.location.reload();
 })
@@ -58,3 +59,8 @@ document.querySelector("#nav>:nth-child(1)>:nth-child(6)").addEventListener("mou
     document.getElementById("Block0").style.display = "none"
     document.getElementById("Block1").style.display = "flex"
 })
+=======
+document.getElementById("Sign").addEventListener("click",()=>{
+    window.location.href = "./SignUp.html"
+})
+
