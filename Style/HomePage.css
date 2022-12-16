@@ -35,6 +35,15 @@ body{
     font-style: bold;
     padding: 8px;
 }
+#Block0{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    display: none;
+    background-color: #fff4ee;
+}
+#Block0>div>h4{
+    color: #7f45ff;
+}
 #Block1{
     width: 80%;
     margin: auto;
