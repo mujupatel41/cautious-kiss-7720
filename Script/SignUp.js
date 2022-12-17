@@ -34,5 +34,10 @@ document.getElementById("login").addEventListener("click",()=>{
 })
 document.querySelector("#nav>div>h1").addEventListener("click",()=>{
     window.location.href = "./HomePage.html"
+
 })
+// All Done
 // window.location
+=======
+})
+
