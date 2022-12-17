@@ -59,8 +59,24 @@ document.querySelector("#nav>:nth-child(1)>:nth-child(6)").addEventListener("mou
     document.getElementById("Block0").style.display = "none"
     document.getElementById("Block1").style.display = "flex"
 })
+
+document.querySelector("#sqr>:nth-child(1)").addEventListener("click",()=>{
+    window.location.href = "./SecondPage.html"
+})
+document.querySelector("#sqr>:nth-child(2)").addEventListener("click",()=>{
+    window.location.href = "./SecondPage.html"
+})
+document.querySelector("#sqr>:nth-child(3)").addEventListener("click",()=>{
+    window.location.href = "./SecondPage.html"
+})
+document.querySelector("#sqr>:nth-child(4)").addEventListener("click",()=>{
+    window.location.href = "./SecondPage.html"
+})
+// ALl is Done 
+=======
 =======
 document.getElementById("Sign").addEventListener("click",()=>{
     window.location.href = "./SignUp.html"
 })
+
 
